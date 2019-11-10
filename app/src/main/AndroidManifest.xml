@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Registrar"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".fragments.HomeFragment"></activity>
+        <activity android:name=".fragments.FavoritesFragment" />
+        <activity android:name=".activities.NotesRegisterActivity" />
+        <activity android:name=".activities.IndexActivity" />
+        <activity android:name=".activities.Registrar" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

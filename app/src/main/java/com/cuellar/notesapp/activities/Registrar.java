@@ -1,4 +1,4 @@
-package com.cuellar.notesapp;
+package com.cuellar.notesapp.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.cuellar.notesapp.R;
 
 public class Registrar extends AppCompatActivity implements View.OnClickListener {
 EditText us,pas,nom,em;
